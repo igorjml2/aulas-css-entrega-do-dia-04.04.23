@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr ;
+    grid-template-rows: 25px 40px 40px ;
+    grid-template-areas: 
+    "um dois dois"
+    "um tres quatro"
+    "cinco tres seis";
+    gap: 10px;
+    
+}
+
+
+.verdeMarinho { 
+    background-color: chartreuse;
+    grid-area: um ;
+    border-radius: 5px;
+    
+
+}
+
+
+.aquaMarine {
+    background-color: aquamarine;
+    grid-area: dois;
+    border-radius: 5px;
+
+}
+
+
+.coral {
+    background-color: coral;
+    grid-area: tres;
+    border-radius: 5px;
+
+}
+
+.musgo {
+    background-color: green;
+    grid-area: quatro;
+    border-radius: 5px;
+
+}
+
+.pink { 
+    background-color: pink;
+    grid-area: cinco;
+    border-radius: 5px;
+
+}
+.cinza {
+    background-color: grey;
+    grid-area: seis;
+    border-radius: 5px;
+
+}

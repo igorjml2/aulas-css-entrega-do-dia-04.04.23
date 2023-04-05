@@ -1,0 +1,47 @@
+
+.container {
+    display: flex;
+    height: 580px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .navegacao {
+    background-color: orange;
+    padding: 20px;
+}
+
+.container .outros .cabecalho {
+    background-color: aquamarine;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .outros .corpo {
+    display: flex;
+    height: 300px;
+}
+
+.container .outros .corpo .conteudo {
+    background-color: purple;
+    height: 260px;
+    padding: 20px;
+    width: 300px;
+}
+
+.container .outros .corpo .barra-lateral {
+    background-color: lightsalmon;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 200px;
+}
+
+.container .outros .rodape {
+    background-color: aquamarine;
+   height:90px;
+}
